@@ -1,0 +1,15 @@
+str1 = "Hello, world!"
+str2 = "I love Python."
+str3 = "Hello, world!"
+print(str1 == str2)
+print(str1 == str3)
+result = str1 + str2
+print(result)
+print(len(str1))
+print(len(str2))
+print(str1[1:4])
+message = 'Hello world'
+message = 'Welcome to Python Programming'
+print(message) 
+for letter in str1:
+ print(letter)

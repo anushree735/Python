@@ -1,0 +1,12 @@
+fileptr = open("file.txt","a")
+txt=input("Enter the Text or a sentence: ")
+fileptr.write(txt)
+fileptr = open("file.txt","r")
+ary=[]
+data = fileptr.readline()
+l=data.split()
+for line in l:
+    ary.append(line)
+
+print(ary)
+fileptr.close()
